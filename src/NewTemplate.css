@@ -15,8 +15,6 @@
   flex-direction: column;
   gap: 25px;
   padding: 20px;
-  width: 100px;
-  height: 325px;
   background-color: #fff;
 }
 .heading {
@@ -25,8 +23,8 @@
 }
 .infobox {
   background-color: #fff;
-  height: 500px;
-  width: 800px;
+  min-height: 500px;
+  min-width: 800px;
   padding: 40px;
 }
 .text {
