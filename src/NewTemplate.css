@@ -43,6 +43,7 @@
 .question {
   display: flex;
   width: 100%;
+  align-items: flex-end;
   gap:5px
 }
 .selectCustom {
@@ -64,4 +65,14 @@
     background-color:purple;
     color: #fff;
 }
+.selectDiv{
+  display: flex;
+  height: fit-content;
+  gap: 14px;
+  margin-bottom: 13px;
+}
+.model-content{
+  height: 750px;
+}
+
 
