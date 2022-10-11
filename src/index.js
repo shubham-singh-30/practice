@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {Login} from './Login';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 import { NewTemplate } from './NewTemplate';
+import {CreateOrEditTemplate } from './CreateOrEditTemplate';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NewTemplate />
+    <CreateOrEditTemplate />
   </React.StrictMode>
 );
 
